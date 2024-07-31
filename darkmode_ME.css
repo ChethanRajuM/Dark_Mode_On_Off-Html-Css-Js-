@@ -1,0 +1,42 @@
+#spn {
+    padding: 5px;
+    font-size: x-large;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    max-width: 98.4%;
+}
+
+#btn {
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+#btn1 {
+    font-size: x-large;
+    border-radius: 10px;
+    position: relative;
+    left: -53px;
+}
+
+#gparent {
+    clear: both;
+    max-width: 99%;
+}
+
+img {
+    display: flex;
+    overflow: auto;
+}
+
+@media screen and (max-width: 462px) {
+    img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    img {
+        width: 200px;
+    }
+}
